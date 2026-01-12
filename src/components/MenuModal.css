@@ -1,0 +1,66 @@
+﻿.menu-modal {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 20;
+}
+
+.menu-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(46, 31, 26, 0.5);
+}
+
+.menu-modal__content {
+  position: relative;
+  background: #fff;
+  border-radius: 24px;
+  padding: 2rem;
+  width: min(560px, 92%);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: grid;
+  gap: 1rem;
+  z-index: 1;
+}
+
+.menu-modal__content img {
+  border-radius: 16px;
+}
+
+.menu-modal__content h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--choco);
+}
+
+.menu-modal__content ul {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1.2rem;
+  color: #4a342c;
+}
+
+.menu-modal__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu-modal__price {
+  font-weight: 600;
+  color: var(--choco);
+  font-size: 1.1rem;
+}
+
+.menu-modal__close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--choco);
+}

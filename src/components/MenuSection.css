@@ -1,0 +1,103 @@
+﻿.menu__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.menu__tab {
+  border: 1px solid rgba(107, 62, 46, 0.2);
+  background: transparent;
+  color: var(--choco);
+  padding: 0.65rem 1.3rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.menu__tab.is-active {
+  background: var(--rose);
+  color: #fff;
+  border-color: transparent;
+}
+
+.menu__carousel {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu__list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr);
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.6rem 0.2rem 1rem;
+}
+
+.menu__list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.menu__list::-webkit-scrollbar-thumb {
+  background: rgba(107, 62, 46, 0.3);
+  border-radius: 999px;
+}
+
+.menu-card {
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.menu-card img {
+  border-radius: 16px;
+  background: var(--sage);
+}
+
+.menu-card__body h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--choco);
+  margin-bottom: 0.4rem;
+}
+
+.menu-card__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.menu-card__price {
+  font-weight: 600;
+  color: var(--choco);
+}
+
+.menu__nav {
+  border: none;
+  background: var(--cream);
+  color: var(--choco);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .menu__carousel {
+    grid-template-columns: 1fr;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+}

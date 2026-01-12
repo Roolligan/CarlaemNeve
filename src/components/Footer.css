@@ -1,0 +1,21 @@
+﻿.footer {
+  background: var(--choco);
+  color: #fff;
+  padding: 2.5rem 0;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+}
+
+.footer__copy {
+  opacity: 0.8;
+}

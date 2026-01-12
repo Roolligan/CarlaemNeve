@@ -1,0 +1,22 @@
+﻿.events__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.events__card h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--choco);
+  margin-bottom: 0.6rem;
+}
+
+.events__cta {
+  display: inline-flex;
+}
+
+@media (max-width: 900px) {
+  .events__grid {
+    grid-template-columns: 1fr;
+  }
+}

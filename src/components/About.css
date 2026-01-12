@@ -1,0 +1,30 @@
+﻿.about__content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.about__signature {
+  margin-top: 2rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  color: var(--choco);
+}
+
+.about__accent {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.about__card h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0.6rem;
+  color: var(--choco);
+}
+
+@media (max-width: 920px) {
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+}

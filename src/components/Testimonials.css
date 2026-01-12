@@ -1,0 +1,41 @@
+﻿.testimonials {
+  background: linear-gradient(180deg, rgba(214, 161, 138, 0.12), rgba(246, 241, 235, 0.8));
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.6rem;
+}
+
+.testimonials__card {
+  display: grid;
+  gap: 1rem;
+}
+
+.testimonials__stars {
+  display: inline-flex;
+  gap: 0.2rem;
+}
+
+.testimonials__stars svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--gold);
+}
+
+.testimonials__text {
+  color: #4d362d;
+}
+
+.testimonials__author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.9rem;
+  color: #6b4a3f;
+}
+
+.testimonials__author strong {
+  color: var(--choco);
+}
