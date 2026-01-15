@@ -74,7 +74,8 @@ function MenuSection() {
                   }
                 }}
               >
-                <img src={dessertImage} alt={item.name} />
+                <img src={item.image || dessertImage} alt={item.name} loading="lazy" />
+
                 <div className="menu-card__body">
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>

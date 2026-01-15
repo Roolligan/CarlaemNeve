@@ -1,5 +1,5 @@
 ﻿import "./Hero.css";
-import heroImage from "../assets/hero-cake.svg";
+import heroImage from "../assets/hero-image.png";
 import { buildWhatsAppLink } from "../utils/whatsapp";
 
 const highlights = [

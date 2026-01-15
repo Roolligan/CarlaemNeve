@@ -48,6 +48,14 @@
   padding: 1.8rem;
   box-shadow: var(--shadow);
 }
+.hero__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 
 .hero__cards {
   display: grid;
