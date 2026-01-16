@@ -1,5 +1,6 @@
 ﻿import "./Header.css";
 import { buildWhatsAppLink } from "../utils/whatsapp";
+import logo from "../assets/brand/logo-carla.png";
 
 const navItems = [
   { label: "Início", href: "#inicio" },
@@ -14,10 +15,15 @@ function Header() {
   return (
     <header className="header">
       <div className="container header__content">
-        <div className="header__brand" aria-label="Carla em Neve">
-          <span className="header__logo">Carla em Neve</span>
-          <span className="header__subtitle">Por Carla Capelatto</span>
-        </div>
+        <div className="header__brand">
+  <img
+    src={logo}
+    alt="Carla em Neve – Por Carla Capelatto"
+    className="header__brandLogo"
+  />
+  </div>
+
+
         <nav className="header__nav" aria-label="Menu principal">
           {navItems.map((item) => (
             <a key={item.href} href={item.href} className="header__link">

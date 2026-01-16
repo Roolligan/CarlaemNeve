@@ -27,6 +27,12 @@
   color: var(--choco);
   letter-spacing: 0.02em;
 }
+.header__brandLogo {
+  height: 74px;     /* ajuste aqui */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 
 .header__subtitle {
   font-size: 0.85rem;

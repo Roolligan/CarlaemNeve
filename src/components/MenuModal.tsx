@@ -16,7 +16,8 @@ function MenuModal({ item, onClose }: MenuModalProps) {
         <button className="menu-modal__close" onClick={onClose} aria-label="Fechar">
           x
         </button>
-        <img src={dessertImage} alt={item.name} />
+        <img src={item.image || dessertImage} alt={item.name} loading="lazy" />
+
         <h3>{item.name}</h3>
         <p>{item.description}</p>
         <ul>
