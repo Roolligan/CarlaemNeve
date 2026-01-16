@@ -13,7 +13,7 @@ function Hero() {
     <section className="hero" id="inicio">
       <div className="container hero__content">
         <div className="hero__text">
-          <p className="hero__eyebrow">Confeitaria premium</p>
+          <p className="hero__eyebrow">Carla em Neve - Confeitaria premium <br /> Por Carla Capelatto</p>
           <h1>Confeitaria artesanal para momentos inesquecíveis.</h1>
           <p className="hero__subtitle">
             Bolos, tortas e sobremesas feitas com carinho, sabor e elegância para

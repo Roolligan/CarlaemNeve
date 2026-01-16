@@ -1,5 +1,5 @@
 ﻿.hero {
-  padding: 5.5rem 0 4rem;
+  padding: 3rem 0 4rem;
 }
 
 .hero__content {
@@ -11,7 +11,7 @@
 
 .hero__text h1 {
   font-family: "Playfair Display", serif;
-  font-size: clamp(2.6rem, 3.6vw, 3.5rem);
+  font-size: clamp(2rem, 3.6vw, 3rem);
   color: var(--choco);
   margin-bottom: 1rem;
 }
@@ -19,10 +19,11 @@
 .hero__eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--gold);
   margin-bottom: 0.6rem;
-}
+  text-align: center;
+  }
 
 .hero__subtitle {
   font-size: 1.05rem;
