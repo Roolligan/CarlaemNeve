@@ -3,6 +3,13 @@ import tacaFlorestaNegra from '../assets/menu/taca-floresta.png'
 import tacaMorango from '../assets/menu/taca-morango.png'
 import tacaAbacaxi from '../assets/menu/taca-abacaxi.png'
 import emBreve from '../assets/menu/em-breve.png'
+import tortaLisboa from '../assets/menu/torta-lisboa.png'
+import tortaHolandesa from '../assets/menu/torta-holandesa.png'
+import tortaLimao from '../assets/menu/torta-limao.png'
+import paveChocolate from '../assets/menu/pave-chocolate.png'
+import camafeuNozes from '../assets/menu/camafeu-nozes.png'
+import boxCoco from '../assets/menu/box-coco.png'
+import longCake from '../assets/menu/long-cake.png'
 
 export type MenuCategory = "Taças" | "Tortas" | "Boxes" | "Long Cakes";
 
@@ -95,7 +102,7 @@ export const menuItems: MenuItem[] = [
     id: "torta-lisboa",
     name: "Torta Lisboa (2kg)",
     description: "Camadas generosas de chocolate e creme aveludado.",
-    image: emBreve, 
+    image: tortaLisboa, 
     price: "R$ 280,00",
     category: "Tortas",
     details: [
@@ -108,7 +115,7 @@ export const menuItems: MenuItem[] = [
     id: "torta-holandesa",
     name: "Torta Holandesa",
     description: "Base crocante com creme suave e ganache.",
-    image: emBreve,
+    image: tortaHolandesa,
     price: "R$ 145,00",
     category: "Tortas",
     details: [
@@ -121,7 +128,7 @@ export const menuItems: MenuItem[] = [
     id: "torta-limao",
     name: "Torta de Limão",
     description: "Creme cítrico com merengue delicado e base dourada.",
-    image: emBreve,
+    image: tortaLimao,
     price: "R$ 145,00",
     category: "Tortas",
     details: [
@@ -134,7 +141,7 @@ export const menuItems: MenuItem[] = [
     id: "box-chocotone",
     name: "Box Pavê de Chocotone",
     description: "Pavê cremoso com chocolate e toques natalinos.",
-    image: emBreve,
+    image: paveChocolate,
     price: "R$ 145,00",
     category: "Boxes",
     details: [
@@ -147,7 +154,7 @@ export const menuItems: MenuItem[] = [
     id: "box-camafeu",
     name: "Box Camafeu de Nozes",
     description: "Doce fino com nozes selecionadas e fondant.",
-    image: emBreve,
+    image: camafeuNozes,
     price: "R$ 165,00",
     category: "Boxes",
     details: [
@@ -160,7 +167,7 @@ export const menuItems: MenuItem[] = [
     id: "box-coco",
     name: "Box Bolo Gelado de Coco",
     description: "Bolo gelado úmido com coco fresco e leite condensado.",
-    image: emBreve,
+    image: boxCoco,
     price: "R$ 145,00",
     category: "Boxes",
     details: [
@@ -173,7 +180,7 @@ export const menuItems: MenuItem[] = [
     id: "long-abacaxi",
     name: "Long Cake Abacaxi com Coco",
     description: "Long cake sofisticado com recheio cremoso e frutas.",
-    image: emBreve,
+    image: longCake,
     price: "R$ 230,00",
     category: "Long Cakes",
     details: [
